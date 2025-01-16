@@ -50,7 +50,8 @@ In addition to the packages included in [Bazzite](https://github.com/ublue-os/ba
 
 #### Communications
 
-- Discord (using Vesktop)
+- Discord (Layered)
+- Vesktop (As backup)
 - Element
 
 #### Programming
