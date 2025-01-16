@@ -60,7 +60,7 @@ In addition to the packages included in [Bazzite](https://github.com/ublue-os/ba
 #### Utilities
 
 - Clapper
-- lollypop
+- Amberol
 - Spotify
 
 #### Gaming
