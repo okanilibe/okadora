@@ -76,7 +76,7 @@ In addition to the packages included in [Bazzite](https://github.com/ublue-os/ba
 If you do decide you want to try my image, you will want to rebase from Fedora Silverblue using this command:
 
 ```bash
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/Okanilibe/okadora:latest
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/okanilibe/okadora:latest
 ```
 
 After rebase, you will need to run the command below to install all flatpaks that are shipped with Bazzite and Okadora
@@ -92,7 +92,7 @@ If there is demand, I may publish ISOs.
 These images are signed with sigstore's [cosign](https://docs.sigstore.dev/cosign/overview/). You can verify the signature by downloading the `cosign.pub` key from this repo and running the following command:
 
 ```bash
-cosign verify --key cosign.pub ghcr.io/Okanilibe/okadora
+cosign verify --key cosign.pub ghcr.io/okanilibe/okadora
 ```
 
 ## Special Thanks
