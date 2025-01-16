@@ -23,6 +23,7 @@ utility_packages=(
   "stow"
   "scrcpy"
   "waypipe"
+  "discord"
 )
 
 docker_packages=(
