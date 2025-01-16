@@ -18,4 +18,4 @@ _install-okadora-flatpaks:
     echo "Installing Bazzite Flatpaks.."
     flatpak --system -y install ${BAZZITE_FLATPAK_LIST}
     echo "Installing Okadora Flatpaks.."
-    flatpak --system -y install ${ISENGARD_FLATPAK_LIST}
+    flatpak --system -y install ${OKADORA_FLATPAK_LIST}
