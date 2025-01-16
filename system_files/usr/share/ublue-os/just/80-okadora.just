@@ -13,7 +13,7 @@ disconnect-home:
 # Install system flatpaks
 _install-okadora-flatpaks:
     #!/bin/bash
-    BAZZITE_FLATPAK_LIST="$(curl https://raw.githubusercontent.com/ublue-os/bazzite/main/scripts/gnome_flatpaks/flatpaks | tr '\n' ' ')"
+    BAZZITE_FLATPAK_LIST="$(curl https://raw.githubusercontent.com/ublue-os/bazzite/main/installer/gnome_flatpaks/flatpaks | tr '\n' ' ')"
     OKADORA_FLATPAK_LIST="$(curl https://raw.githubusercontent.com/Okanilibe/okadora/main/flatpaks/okadora_flatpaks | tr '\n' ' ')"
     echo "Installing Bazzite Flatpaks.."
     flatpak --system -y install ${BAZZITE_FLATPAK_LIST}
