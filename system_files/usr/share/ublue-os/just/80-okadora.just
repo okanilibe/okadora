@@ -17,5 +17,5 @@ _install-isengard-flatpaks:
     OKADORA_FLATPAK_LIST="$(curl https://raw.githubusercontent.com/Okanilibe/okadora/main/flatpaks/okadora_flatpaks | tr '\n' ' ')"
     echo "Installing Bazzite Flatpaks.."
     flatpak --system -y install ${BAZZITE_FLATPAK_LIST}
-    echo "Installing Isengard Flatpaks.."
+    echo "Installing Okadora Flatpaks.."
     flatpak --system -y install ${ISENGARD_FLATPAK_LIST}
