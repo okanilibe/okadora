@@ -1,5 +1,6 @@
+![Okadora](assets/okadora.png)
 
-
+# Okadora
 Custom Fedora Atomic Image for Desktops and Laptops. This is my take on what the modern Linux Desktop should look like.
 
 # Purpose
