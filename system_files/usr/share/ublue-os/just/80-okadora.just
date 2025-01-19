@@ -22,4 +22,4 @@ _install-okadora-flatpaks:
     echo "Installing Okadora Flatpaks.."
     flatpak --system -y install ${OKADORA_FLATPAK_SYSTEM_LIST}
     echo "Installing Okadora Flatpaks.."
-    flatpak --user -y install ${OKADORA_FLATPAK_SYSTEM_LIST}
+    flatpak --user -y install ${OKADORA_FLATPAK_USER_LIST}
