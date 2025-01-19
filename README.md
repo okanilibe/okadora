@@ -59,12 +59,18 @@ In addition to the packages included in [Bazzite](https://github.com/ublue-os/ba
 #### Before You will need to activate the flatpak user repo
 
 **add flatpak user repo**
+
+```bash
 flatpak remote-add --if-not-exists flathub --user https://dl.flathub.org/repo/flathub.flatpakrepo
+```
 
 #### Optional
 
 **install and add firefox nightly unofficial flatpak repo**
+
+```bash
 flatpak install --user https://gitlab.com/projects261/firefox-nightly-flatpak/-/raw/main/firefox-nightly.flatpakref
+```
 
 #### Browser
 
