@@ -14,8 +14,12 @@ disconnect-home:
 _install-okadora-flatpaks:
     #!/bin/bash
     BAZZITE_FLATPAK_LIST="$(curl https://raw.githubusercontent.com/ublue-os/bazzite/main/installer/gnome_flatpaks/flatpaks | tr '\n' ' ')"
-    OKADORA_FLATPAK_LIST="$(curl https://raw.githubusercontent.com/okanilibe/okadora/main/flatpaks/okadora_flatpaks | tr '\n' ' ')"
+    OKADORA_FLATPAK_SYSTEM_LIST="$(curl https://raw.githubusercontent.com/okanilibe/okadora/main/flatpaks/okadora_flatpaks_system | tr '\n' ' ')"
+    OKADORA_FLATPAK_USER_LIST="$(curl https://raw.githubusercontent.com/okanilibe/okadora/main/flatpaks/okadora_flatpaks_user | tr '\n' ' ')"
+
     echo "Installing Bazzite Flatpaks.."
     flatpak --system -y install ${BAZZITE_FLATPAK_LIST}
     echo "Installing Okadora Flatpaks.."
-    flatpak --system -y install ${OKADORA_FLATPAK_LIST}
+    flatpak --system -y install ${OKADORA_FLATPAK_SYSTEM_LIST}
+    echo "Installing Okadora Flatpaks.."
+    flatpak --user -y install ${OKADORA_FLATPAK_SYSTEM_LIST}
