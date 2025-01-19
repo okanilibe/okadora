@@ -44,19 +44,27 @@ In addition to the packages included in [Bazzite](https://github.com/ublue-os/ba
 
 ### System Flatpaks
 
+
+#### Programming
+
+- Podman Desktop
+
+### Utilities
+
+- OBS Studio
+- GPU Screen Recording (Maybe later)
+
+### User Flatpaks
+
 #### Browser
 
-- Firefox
+- Firefox (<-- It's just the best browser for me sorry)
 
 #### Communications
 
 - Discord (Layered)
 - Vesktop (As backup)
 - Element
-
-#### Programming
-
-- Podman Desktop
 
 #### Utilities
 
@@ -68,6 +76,7 @@ In addition to the packages included in [Bazzite](https://github.com/ublue-os/ba
 
 - Prismlauncher
 - Heroic Games
+- Fightcade
 
 #### Design
 
