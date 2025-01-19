@@ -46,3 +46,9 @@ rpm-ostree install ${packages[@]}
 
 # install fzf-tab-completion
 git clone https://github.com/lincheney/fzf-tab-completion.git /usr/share/ublue-os/fzf-tab-completion
+
+# add flatpak user repo
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+# install and add firefox nightly unofficial flatpak repo (because why not)
+flatpak install --user https://gitlab.com/projects261/firefox-nightly-flatpak/-/raw/main/firefox-nightly.flatpakref
