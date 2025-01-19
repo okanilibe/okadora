@@ -65,6 +65,7 @@ In addition to the packages included in [Bazzite](https://github.com/ublue-os/ba
 - Discord (Layered)
 - Vesktop (As backup)
 - Element
+- Telegram
 
 #### Utilities
 
