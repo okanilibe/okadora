@@ -1,6 +1,7 @@
 ![Okadora](assets/okadora.png)
 
 # Okadora
+[![build-okadora](https://github.com/okanilibe/okadora/actions/workflows/build.yml/badge.svg)](https://github.com/okanilibe/okadora/actions/workflows/build.yml)
 Custom Fedora Atomic Image for Desktops and Laptops. This is my take on what the modern Linux Desktop should look like.
 
 # Purpose
