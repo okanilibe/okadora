@@ -78,8 +78,7 @@ flatpak install --user https://gitlab.com/projects261/firefox-nightly-flatpak/-/
 
 #### Communications
 
-- Discord (Layered)
-- Vesktop (As backup)
+- Vesktop
 - Element
 - Telegram
 
