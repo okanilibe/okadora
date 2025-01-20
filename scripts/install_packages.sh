@@ -14,6 +14,7 @@ programming_packages=(
   "code"
   "gh"
   "insync"
+  "ghostty"
   "nodejs"
   "zed"
 )
