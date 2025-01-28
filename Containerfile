@@ -1,4 +1,4 @@
-ARG BASE_IMAGE_NAME="${BASE_IMAGE_NAME:-bazzite-gnome}"
+ARG BASE_IMAGE_NAME="${BASE_IMAGE_NAME:-bazzite}"
 ARG IMAGE_TAG="${IMAGE_TAG:-testing}"
 
 FROM ghcr.io/ublue-os/${BASE_IMAGE_NAME}:${IMAGE_TAG} AS okadora

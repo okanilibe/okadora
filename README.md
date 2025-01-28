@@ -7,7 +7,7 @@ Custom Fedora Atomic Image for Desktops and Laptops. This is my take on what the
 
 # Purpose
 
-This is an image that is built on the work of [Universal Blue](https://github.com/ublue-os), [Bazzite](https://github.com/ublue-os/bazzite), and [Fedora Silverblue](https://fedoraproject.org/silverblue/) projects.
+This is an image that is built on the work of [Universal Blue](https://github.com/ublue-os), [Bazzite](https://github.com/ublue-os/bazzite), and [Fedora Kinoite](https://fedoraproject.org/kinoite/) projects.
 
 The `Containerfile` is built directly off of [Bazzite](https://github.com/ublue-os/bazzite).
 
