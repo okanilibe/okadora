@@ -8,8 +8,8 @@ COPY scripts /scripts
 
 RUN /scripts/preconfigure.sh && \
     /scripts/install_packages.sh && \
-    /scripts/enable_services.sh && \
     /scripts/configure_kde.sh && \
+    /scripts/enable_services.sh && \
     /scripts/just.sh && \
     /scripts/cleanup.sh && \
     ostree container commit
